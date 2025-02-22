@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Rules 3D</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .producto {
+            display: inline-block;
+            background: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .producto img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>No Rules 3D</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a No Rules 3D</h2>
+        <p>Explora nuestros filamentos PLA y PETG de alta calidad para impresión 3D.</p>
+    </section>
+    
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="imagen1.jpg" alt="Filamento PLA">
+            <h3>Filamento PLA</h3>
+            <p>Alta calidad y colores vibrantes.</p>
+        </div>
+        <div class="producto">
+            <img src="imagen2.jpg" alt="Filamento PETG">
+            <h3>Filamento PETG</h3>
+            <p>Durabilidad y resistencia.</p>
+        </div>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <article>
+            <h3>Consejos para imprimir en 3D</h3>
+            <p>Descubre cómo mejorar tus impresiones 3D con estos consejos.</p>
+        </article>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 No Rules 3D - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
